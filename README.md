@@ -34,21 +34,32 @@ eu primeiro fiz um arquivo index.js
 dentro do index.js criei 2 consts para as mensagem padrão dividido em 2 partes, para depois utilizar no console.log
 
 "
+
 const mensagemsaidapt1 = "O Herói de Nome ";
+
 const mensagemsaidapt2 = " está no nível de ";
+
 "
 
 depois criei 3 Arrays, 1 para guardar o nome, 1 para a experiencia, 1 para salvar o nome da classe depois da estrutura de decisão
+
 "
+
 let NomeHeroi = ["Aparecido Celso","Felipe Aguiar","Mary Ballesta","Regiane Araujo","Iglá Generoso","Aline Antunes"];
+
 let ExperienciaHeroi = ["1001","5001","9001","10000","20001"];
+
 let NivelDoHerois = ["sem definição","sem definição","sem definição","sem definição","sem definição"];
+
 "
 
 
 para poder usar a parte de repetição eu criei as variaveis como vetor de 5 valores.
+
 "
+
 for (let index = 0; index < NivelDoHerois.length; index++) 
+
 "
 
 assim usei um for para percorrer todos dos dados dentro dos arrays e validar todos os valores da experiencias guardando dentro do NivelDoHerois, para as codições usei IF e ELSEIF 
