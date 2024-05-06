@@ -26,3 +26,15 @@ Se XP for maior ou igual a 10.001 = Radiante
 
 Ao final deve se exibir uma mensagem:
 "O Herói de nome **{nome}** está no nível de **{nivel}**"
+
+
+## solução
+eu primeiro fiz um arquivo index.js criei 2 consts para as mensagem padrão dividido em 2 partes, para depois utilizar no console.log
+
+depois criei 3 variaveis, 1 para guardar o nome, 1 para a experiencia, 1 para salvar o nome da classe depois da estrutura de decisão
+
+para poder usar a parte de repetição eu criei as variaveis como vetor de 5 valores.
+
+assim usei um for para percorrer todos dos dados dentro do array e validar todos os valores da experiencias e tambem para exibir no console.log
+
+por fim usei um arquivo index.html para chamar os dados do index.js 
